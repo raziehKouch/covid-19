@@ -125,6 +125,8 @@ sub{
 #sharing{
     left: calc(50% + 358px);
 	text-align: right;
+direction: rtl;
+
 }
 #translations a, #sharing a{
 	color: #aaa;
