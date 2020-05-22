@@ -74,7 +74,8 @@ direction:rtl;
 	display: block;
 	position: absolute;
     height: 320px;
-    right: 0;
+    right: 100;
+ left: 100px;
     bottom: 0;
 }
 
@@ -121,11 +122,12 @@ sub{
 	top: 527px;
 	left: calc(50% - 478px);
 	line-height: 1.3em;
+direction: rtl;
 }
 #sharing{
     left: calc(50% + 358px);
 	text-align: right;
-direction: rtl;
+
 
 }
 #translations a, #sharing a{
