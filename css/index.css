@@ -140,6 +140,7 @@ sub{
 	color: #fff;
 	overflow: hidden;
 	margin-top: 2em;
+	direction: rtl;
 }
 #footer > div{
 	width:960px;
@@ -170,6 +171,7 @@ sub{
 	font-size: 16px;
 	line-height: 1.3em;
 	margin: 0 auto;
+	direction: rtl;
 }
 .footnotes hr/*, .footnotes a*/{
 	display: none;
