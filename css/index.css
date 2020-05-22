@@ -41,6 +41,7 @@ article > p, article > ul, article > ol, article > h1, article > h2, article > h
 	overflow: hidden;
 	margin-bottom: 2em;
 	margin-top: 3em;
+direction:rtl;
 }
 .section:first-of-type{
 	margin-top: 0;
