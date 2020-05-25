@@ -13,27 +13,27 @@
 		<div id="controls">
 
 			<div id="hide_on_first_playthrough">
-				<div id="section_dynamics">
+				<div id="section_dynamics" direction="rtl">
 					...
 					<icon i></icon>
 					به صورت <i>میانگین</i>،
 					هر
 					<br><br>
 					
-					<div direction="rtl" id="label_transmission">
-						هر<icon s></icon> در <span id="label_p_transmission">N</span> روز مبتلا میکنه.
+					<div id="label_transmission" direction="rtl">
+						هر<icon s></icon> رو در <span id="label_p_transmission">N</span> روز مبتلا می‌کنه.
 						<br>
 						<span id="label_transmission_caveat">
 							(در شروع اپیدمی)<br>
 						</span>
-						<input direction="ltr" class="sim_input" type="range" id="p_transmission" min="1" max="30" step="1" value="4">
+						<input class="sim_input" type="range" id="p_transmission" direction="ltr"  min="1" max="30" step="1" value="4">
 					</div>
 
-					<div id="label_c_exposed">
+					<div direction="rtl" id="label_c_exposed">
 						<input class="sim_checkbox" type="checkbox" id="c_exposed">
 						 <span id="label_p_exposed">N</span> روز طول می‌کشه تا <icon e></icon> به <icon i></icon> تبدیل بشه.
 						<br>
-						<input class="sim_input" type="range" id="p_exposed" min="1" max="30" step="1" value="3">
+						<input class="sim_input" type="range" id="p_exposed" direction="ltr" min="1" max="30" step="1" value="3">
 					</div>
 					
 					<div id="label_c_recovery">
