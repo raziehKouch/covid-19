@@ -217,8 +217,8 @@ sliderColors.forEach((icPair, i)=>{
 				-webkit-appearance: none;
 				height: 9px;
 				cursor: ew-resize;
-				background: #dddddd;
-				color: ${color};
+				background: ${color};
+				color: #dddddd;
 				border:1px solid rgba(128,128,128,0.5);
 				position:relative;
 				top:1px;
