@@ -33,7 +33,7 @@ div{
 
 #controls{
 	position: absolute;
-	/*left:15px;*/
+	left:15px;
 	top:20px;
 	width:270px;
 	/*height:500px;*/
@@ -101,8 +101,7 @@ div{
 }
 
 #sb_reset, #sb_replay{
-	/*position: absolute;*/
-	margin-top: 3px;
+	position: absolute;
     color: #999;
     font-size: 15px;
     font-weight: 100;
@@ -326,7 +325,6 @@ icon[r]{
 	display: inline-block;
 
 	position: relative;
-	/* vertical-align: middle; */
 	top: 6px;
 }
 .control_icon[continue]{
