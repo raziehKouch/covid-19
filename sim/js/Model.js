@@ -204,12 +204,12 @@ sliderColors.forEach((icPair, i)=>{
 			  input#p_${name} {
 			    overflow: hidden;
 			    -webkit-appearance: none;
-			    background-color: #dddddd;
+			    background-color: ${color};
 			  }
 			  input#p_${name}::-webkit-slider-runnable-track {
 			    height: 10px;
 			    -webkit-appearance: none;
-			    color: ${color};
+			    color: #dddddd;
 			    margin-top: -1px;
 			  }
 			  input#p_${name}::-webkit-slider-thumb {
@@ -217,7 +217,7 @@ sliderColors.forEach((icPair, i)=>{
 				-webkit-appearance: none;
 				height: 9px;
 				cursor: ew-resize;
-				background: ${color};
+				background: #dddddd;
 				color: ${color};
 				border:1px solid rgba(128,128,128,0.5);
 				position:relative;
