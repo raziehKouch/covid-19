@@ -117,10 +117,10 @@ window.onload = ()=>{
 			let sbDOM = $('#sandbox');
 			sbDOM.style.overflow = 'auto';
 			sbDOM.style.height = 'auto';
-			sbDOM.setAttribute('data-simplebar-direction','rtl');
+			sbDOM.setAttribute('data-simplebar-direction','ltr');
 			new SimpleBar(sbDOM,{
 				autoHide: false,
-				direction: 'rtl'
+				direction: 'ltr'
 			});
 			sbDOM.scrollTop = 0;
 
