@@ -33,7 +33,7 @@ div{
 
 #controls{
 	position: absolute;
-	left:15px;
+	/*left:15px;*/
 	top:20px;
 	width:270px;
 	/*height:500px;*/
