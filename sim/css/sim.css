@@ -101,7 +101,8 @@ div{
 }
 
 #sb_reset, #sb_replay{
-	position: absolute;
+	/*position: absolute;*/
+	margin-top: 3px;
     color: #999;
     font-size: 15px;
     font-weight: 100;
