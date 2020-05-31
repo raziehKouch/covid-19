@@ -409,7 +409,7 @@ let draw = ()=>{
 		updateRBar(label_p_re, canvas_re, re, true);
 
 		// Herd Immunity
-		herdDOM.style.left = (1-(1/r0))*250 + 'px';
+		herdDOM.style.left = (1-(1/r0))*260 + 'px';
 
 	}
 	INPUTS_WERE_CHANGED = false;
